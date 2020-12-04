@@ -98,7 +98,7 @@ const StyledLanguageSelector = styled.div`
         &.ru:before{
             background-image: url(${RuIcon});
         }
-        &.pl:before{
+        /*&.pl:before{
             background-image: url(${PlIcon});
         }
         &.kr:before{
@@ -109,7 +109,7 @@ const StyledLanguageSelector = styled.div`
         }
         &.nl:before{
             background-image: url(${NlIcon});
-        }
+        }*/
     }
     .languageSelector:before{
         content: '';
@@ -173,11 +173,11 @@ const availableLocales = [
     {value: "it", text: "Italiano"},
     {value: "jp", text: "日本語"},
     {value: "ru", text: "Русский"},
-    {value: "pl", text: "Polski"},
+];
+ {/*value: "pl", text: "Polski"},
     {value: "kr", text: "한국어"},
     {value: "dk", text: "Dansk"},
-    {value: "nl", text: "Nederland"},
-];
+{value: "nl", text: "Nederland"*/}
 
 class LanguageSelector extends React.PureComponent {
 
